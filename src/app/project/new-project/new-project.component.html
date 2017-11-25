@@ -1,0 +1,15 @@
+<form action="">
+  <h2 mat-dialog-title>新建项目</h2>
+  <div mat-dialog-content>
+    <mat-input-container class="full-width"  floatPlaceholder="float" hintLabel="必填项" color="accent">
+      <input matInput type="text" placeholder="项目名称">
+    </mat-input-container>
+    <mat-input-container class="full-width"  floatPlaceholder="float" hintLabel="必填项" color="accent">
+      <input matInput type="text" placeholder="项目描述">
+    </mat-input-container>
+  </div>
+  <div mat-dialog-actions class="text-right">
+    <button mat-raised-button color="primary" type="button" (click)="onClick()">保存</button>
+    <button mat-button mat-dialog-close type="button">关闭</button>
+  </div>
+</form>
